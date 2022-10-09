@@ -1,2 +1,22 @@
-/** Coursera - Module 2 Solution */
+/*** Coursera - Module 2 Solution ***/
 
+* { box-sizing: border-box; }
+
+h1 { margin-bottom: 15px; }
+
+p {  }
+
+/*** Desktop layout ***/
+@media (min-width: 992px) {
+
+}
+
+/*** Tablet layout ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*** Phone layout ***/
+@media (max-width: 767px) {
+
+}
