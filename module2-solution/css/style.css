@@ -2,13 +2,25 @@
 
 * { box-sizing: border-box; }
 
-h1 { margin-bottom: 15px; }
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+}
 
-p {  }
+.row { width: 100%;}
 
 /*** Desktop layout ***/
 @media (min-width: 992px) {
+.blkMenu {
+		border: 1px solid #000;
+		float: left;
+		padding: 10px 20px;
+		width: 33.33%
+	}
 
+	.blkMenu.mid {
+		margin: 0 20px;
+	}
 }
 
 /*** Tablet layout ***/
